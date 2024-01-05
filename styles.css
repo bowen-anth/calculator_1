@@ -1,5 +1,62 @@
+/* Code from: https://openjavascript.info/2021/10/18/how-to-build-a-javascript-calculator/ */
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2d3c3f;
+  min-height: 100dvh;
+}
+
+#content-wrapper {
+  margin: 0 auto;
+  margin-top: 9rem;
+  width: 20rem;
+}
+#display {
+  height: 4.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.2rem;
+  /* border: rgb(70, 70, 70) solid 0.7rem; */
+  background-color: white;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 2.5rem;
+  overflow: hidden;
+}
+
+#display-text {
+  background-color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#keys {
+  font-size: 1.7rem;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0 5px 18px rgb(0 0 0 / 0.6);
+}
+#AC {
+  /* background-color: coral; */
+}
+#\= {
+  background-color: #d71b61;
+}
+table {
+  background-color: #32444c;
+  width: 20rem;
+  border-spacing: 0rem;
+  /* padding: 0.2em; */
+}
+table td {
+  width: 3.7rem;
+  height: 3rem;
+  /* padding: 0.1rem; */
+  border: 0.15px solid #c0c4c7;
+  /* border-radius: 3rem; */
+  background-color: #33454f;
+  color: white;
 }
